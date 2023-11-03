@@ -3,16 +3,17 @@ package com.cibertec.edu.pe.service;
 import java.util.List;
 
 import com.cibertec.edu.pe.modelo.Pregunta;
+import com.cibertec.edu.pe.modelo.Rol;
 
 public interface IServiceRol {
 
-public List<Pregunta> Listar();
+public List<Rol> Listar();
 	
-	public Pregunta Agregar(Pregunta p);
+	public Rol Agregar(Rol rl);
 	
-	public Pregunta Actualizar(Pregunta p);
+	public Rol Actualizar(Rol rl);
 	
-	public Pregunta Buscar(Long id);
+	public Rol Buscar(Long id);
 	
 	public boolean Eliminar(Long id);
 	

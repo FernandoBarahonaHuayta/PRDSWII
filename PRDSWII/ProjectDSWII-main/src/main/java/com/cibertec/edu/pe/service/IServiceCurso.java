@@ -8,9 +8,9 @@ public interface IServiceCurso {
 		
 	public List<Curso> ListarCurso();
 	
-	public Curso Agregar(Curso curso);
+	public Curso Agregar(Curso c);
 	
-	public Curso Actualizar(Curso curso);
+	public Curso Actualizar(Curso c);
 	
 	public Curso BuscarCurso(Long id);
 	

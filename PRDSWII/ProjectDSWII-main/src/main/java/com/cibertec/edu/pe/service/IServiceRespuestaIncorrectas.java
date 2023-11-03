@@ -3,10 +3,11 @@ package com.cibertec.edu.pe.service;
 import java.util.List;
 
 import com.cibertec.edu.pe.modelo.RespuestasIncorrectas;
+import com.cibertec.edu.pe.repository.RespositoryRespuestaIncorrectas;
 
 
 public interface IServiceRespuestaIncorrectas {
-	public List<RespuestasIncorrectas> Listar();
+	public List<RespositoryRespuestaIncorrectas> Listar();
 	
 	public RespuestasIncorrectas Agregar(RespuestasIncorrectas rs);
 	

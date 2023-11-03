@@ -11,9 +11,9 @@ public interface IServiceUbigeo {
 	
 	public Ubigeo Agregar(Ubigeo u);
 	
-	public Seccion Actualizar(Seccion s);
+	public Ubigeo Actualizar(Ubigeo u);
 	
-	public Seccion Buscar(Long id);
+	public Ubigeo Buscar(Long id);
 	
 	public boolean Eliminar(Long id);
 }

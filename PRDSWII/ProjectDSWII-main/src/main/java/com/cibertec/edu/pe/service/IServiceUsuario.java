@@ -12,7 +12,7 @@ public interface IServiceUsuario {
 	
 	public Usuario Actualizar(Usuario u);
 	
-	public Usuario Buscar(Usuario u);
+	public Usuario Buscar(Usuario id);
 	
 	public boolean Eliminar(Long id);
 }
